@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6c5bac228a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class ="container">
+            <nav>
+                <img src="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Service">Service</a></li>
+                    <li><a href="#Project">Project</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Hii there,</p><br><br>
+               
+                <h1>I'm <span>Sneha gupta</span><br><br>I'm Full Stack Developer </h1>
+            </div>
+        </div>
+
+    </div>
+    <br><br><br>
+    <br><br>
+    <!-- ---------------About------------- -->
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWshPX9ygPlVkp8McfX6Okha-u0T_34pLJxA&usqp=CAU" height="100%" width="120%" >
+             </div>
+                <div class="about-col-2">
+                    <h1 class ="sub-title">About Me</h1>
+                    <br><br>
+                    <p>Experience Web developer with a Demonstrated History Of Working in the Few Project .
+                        Skilled ReactJs NodeJs ExpressJs MongoDB DataStruture.Strong Knowledge of Html Css Javascript C C++.
+                        Professional with an BCA Degree Focused in Computer Application.
+                           </p>
+                           <br><br>
+                           <div class="tab-titles">
+                              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                              <p class="tab-links" onclick="opentab('project/internship')" >Project</p>
+                              <p class="tab-links" onclick="opentab('education')" >Education</p>
+
+                           </div>
+                           <br>
+
+                           
+
+
+                           <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                 <li><span>FRONTED </span><br>Html Css Javascript ReactJs Material Ui</li><br>
+                                 
+                                 <li><span>FULL STACK </span><br>Html Css Javascript ReactJs Material Ui NodeJs  AngulerJs ExpressJs MongoDB Redux Toolkit</li><br>
+
+                                 <li><span>MERN STACK </span><br>MongoDB NodeJs ReactJs Express</li><br>
+                                </ul>
+                           </div>
+
+
+                           <div class="tab-contents" id="project/internship">
+                            
+                            <ul>
+                                 <!-- <li><span>ECOMMERCE APP(04/23-05/23)</span><br>Technologies Used - HTML CSS JAVASCRIPT</li><br> -->
+                                 
+                                 <li><span>MERN APP(03/23-04/23)</span><br>Technologies Used - MONGODB EXPRESS NODEJS SOCKET.IO REACT REDUX</li><br>
+
+                                 <li><span>FLAPPY GAME(02/23-03/23)</span><br>Technologies Used - HTML CSS JAVASCRIPT</li><br>
+                                </ul>
+                           </div>
+
+
+
+                           <div class="tab-contents" id="education">
+                            <ul>
+                                 <li><span>FULL-STACK DEVELOPER PROGRAM</span><br>Board Infinity(6-month full-time program focused on DS/Algos & Full- stack Technologies)<br>07/2022-02/2023
+                                 </li><br>
+                                 
+                                 <li><span>BACHELOR OF COMPUTER APPLICATION</span><br>Mata Gujri Mahila Mahavidhyala Jabalpur (M.P)<br>06/2019-07/2022</li><br>
+
+                                 <li><span>HIGHER SECONDARY (M.P. BOARD) 12TH</span><br>Govt Model Higher Secondary Sager(M.P)<br>06/2018-06/2019</li><br>
+                                </ul>
+                           </div>
+
+                          
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br><br>
+
+    <!-- ----------services------- -->
+
+    <div id ="Service">
+        <div class="container">
+            <h1 class ="sub-title"> Services</h1>
+            <br><br><br>
+
+            <div class="service-list">
+
+            
+              <div>
+                <i class="fa-solid fa-code"></i>
+                  <h2>Fronted Developer</h2>
+                  <br>
+                  <p>
+                    Front-end web development is the practice of converting data 
+                    to a graphical interface, through the use of programming 
+                    languages, so that users can view and interact with that data. 
+                    The front-end is the part of a website or web app that a user 
+                    interacts with. </p>
+                     <a href="">Learn More</a>
+               </div>
+
+               <div>
+                
+                
+                
+ 
+ 
+                 <i class="fa-solid fa-laptop-code"></i>
+                <h2>Full Stack Web Developer</h2>
+                <br>
+                <p>
+                    Full stack development refers to the end-to-end application software
+                     development, including the front end and back end. The front end consists of the user interface,
+                     and the back end takes care of the business logic and application workflows. </p>
+                   <a href="">Learn More</a>
+             </div>
+
+
+             <div>
+               
+              
+                <i class="fa-solid fa-database"></i>
+
+                <h2>MERN stack  Developer</h2>
+                <br>
+                <p>
+                     MERN Stack is a Javascript Stack that is used for easier and 
+                    faster deployment of full-stack web applications. MERN Stack comprises of 4 
+                    technologies namely: MongoDB, Express, React and Node.js.
+                     It is designed to make the development process smoother and easier.
+               </p>
+                   <a href="">Learn More</a>
+             </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br>
+
+
+
+    <!-- -------My Work ------- -->
+
+
+    <div id="Project">
+        <div class="container">
+            <h1 class ="sub-title">My Work</h1><br><br>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/work -1.png" width="900px" height="700px" alt="">
+                    <div class="layer">
+                        <h3>Flappy bird game</h3>
+                        <p>Flappy bird is an arcade-style game in which the player control the bird faby,
+                            which moves persistently to the right.
+                        </p>
+                        <a href="https://github.com/snehagupta05/flappy-bird-game"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="image/work-2.png" width="900px" height="700px" alt="">
+                    <div class="layer">
+                        <h3>Mern chat App</h3>
+                        <p>The app connects you to talented people around the world and private talk app.
+                        </p>
+                        <a href="https://github.com/snehagupta05/MernProject "><i class="fa-brands fa-github"></i></a>
+                    </div>    
+                </div>
+              
+
+               <!-- <div class="work">
+                <img src="image/work-3 (2).png" width="900px" height="700px" alt="">
+                <div class="layer">
+                    <h3>Eommerce App</h3>
+                    <p>The app connects you to talented people around the world Downlod it
+                        from play store.
+                    </p>
+                    <a href="https://github.com/snehagupta05/livechat"><i class="fa-brands fa-github"></i></a>
+                </div> 
+            </div> -->
+           
+        </div><br><br>
+        <a href="#" class="btn">See More</a>
+       
+    </div>
+    </div>
+        
+      <!-- ---contact--- -->
+
+      <div id="Contact">
+         <div class="container">
+            <div class="row">
+                <div  class="contact-left">
+                     <h1 class="sub-title">Contact me</h1><br>
+                     <p><i class="fa-solid fa-envelope"></i> snehagupta61484@gmail.com</p>
+                     <p> <i class="fa-solid fa-phone"></i> 9399519394</p>
+                     <br>
+                     <div class="social-icons">
+                        <a href="https://github.com/snehagupta05"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="https://www.linkedin.com/in/sneha-gupta-549317210"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-telegram"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                     </div>
+                     <br>
+                     <a href="image/SNEAH RESUME.pdf" download class="btn btn2">Download CV</a>
+                </div>
+
+                <div  class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder ="Your Email " required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message" ></textarea>  
+                         <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>        
+            </div>
+         </div>
+
+              <div class="copyright">
+                  <p>copyrightn sneha. Made With <i class="fa-solid fa-heart"></i>  by Easy Tutorials</p>
+              </div>   
+            
+            </div>
+
+
+    <script>
+          var  tablinks = document.getElementsByClassName("tab-links");
+          var  tabcontents = document.getElementsByClassName("tab-contents");
+
+
+          function opentab(tabname){
+            for (tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+;          }
+         
+    </script>
+
+    <script>
+          
+       var sidemenu = document.getElementById("sidemenu");
+
+       function openmenu(){
+        sidemenu.style.right = "0";
+           
+           
+       }
+
+       function closemenu(){
+        sidemenu.style.right = "-200px";
+           
+           
+       }
+
+
+    </script>
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwxRv4dpUV0XtTSMzB6Pjv0ckpVp6xcLMIyMJplPhp3hxGkxvFCShpJC8r6Sgs2SC9h/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
